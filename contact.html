@@ -1,13 +1,67 @@
 <!DOCTYPE html>
 <html lang="th">
-
 <head>
-
 <meta charset="UTF-8">
-
-<title>Contact</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | Portfolio</title>
 
 <link rel="stylesheet" href="css/style.css">
+
+<style>
+
+.contact-box{
+max-width:800px;
+margin:80px auto;
+background:rgba(255,255,255,.75);
+backdrop-filter:blur(15px);
+padding:40px;
+border-radius:30px;
+text-align:center;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.contact-box h1{
+color:#ff4fa0;
+margin-bottom:15px;
+}
+
+.contact-box p{
+color:#666;
+margin-bottom:30px;
+}
+
+.contact-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.contact-btn{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:10px;
+padding:18px;
+border-radius:20px;
+text-decoration:none;
+font-size:18px;
+font-weight:bold;
+color:white;
+background:linear-gradient(135deg,#ff8ec7,#ff69b4);
+transition:.35s;
+box-shadow:0 8px 20px rgba(255,105,180,.3);
+}
+
+.contact-btn:hover{
+transform:translateY(-6px) scale(1.05);
+box-shadow:0 15px 30px rgba(255,105,180,.45);
+}
+
+.contact-btn span{
+font-size:26px;
+}
+
+</style>
 
 </head>
 
@@ -15,48 +69,71 @@
 
 <header>
 
-<div class="logo">Portfolio</div>
+<div class="logo">🌸 My Portfolio</div>
 
 <nav>
 
 <a href="index.html">หน้าหลัก</a>
-
 <a href="education.html">การศึกษา</a>
-
 <a href="personal.html">ประวัติ</a>
-
 <a href="activities.html">กิจกรรม</a>
-
 <a href="contact.html">ติดต่อ</a>
 
 </nav>
 
 </header>
 
-<div class="container">
+<section class="contact-box">
 
-<div class="card">
+<h1>💖 Contact Me 💖</h1>
 
-<h2>ช่องทางการติดต่อ</h2>
+<p>
+สามารถติดต่อฉันได้ผ่านช่องทางด้านล่างนี้
+</p>
 
-<div class="social">
+<div class="contact-grid">
 
-<a href="https://www.facebook.com/yumiko.103794">Facebook</a>
+<a href="https://www.facebook.com/yumiko.103794" class="contact-btn" target="_blank">
 
-<a href="https://www.instagram.com/yuuu_.uz/">Instagram</a>
+<span>📘</span>
 
-<a href="piyaporn48148200@gmail.com">Email</a>
+Facebook
 
-<a href="piyaporn._yumiko51">Line</a>
+</a>
+
+<a href="ttps://www.instagrahm.com/yuuu_.uz" class="contact-btn" target="_blank">
+
+<span>📷</span>
+
+Instagram
+
+</a>
+
+<a href="piyaporn48148200@gmail.com" class="contact-btn">
+
+<span>📧</span>
+
+Email
+
+</a>
+
+<a href="https://line.me/ti/p/piyaporn._yumiko51" class="contact-btn" target="_blank">
+
+<span>💚</span>
+
+LINE
+
+</a>
 
 </div>
 
-</div>
+</section>
 
-</div>
+<footer>
 
-<script src="js/script.js"></script>
+<p>🌷 Thank you for visiting my Portfolio 🌷</p>
+
+</footer>
 
 </body>
-
 </html>
