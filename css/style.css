@@ -7,9 +7,17 @@
     font-family:'Prompt',sans-serif;
 }
 
-body{
-    background:linear-gradient(135deg,#FFE6F0,#FFF8FC);
-    color:#555;
+    body{
+    background: linear-gradient(135deg,#FFE4EC,#FFF0F5,#FFF8FD);
+    background-size:400% 400%;
+    animation:bgmove 12s ease infinite;
+}
+
+@keyframes bgmove{
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+}
 }
 
 header{
