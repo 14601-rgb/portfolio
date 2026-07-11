@@ -93,9 +93,21 @@ nav a:hover{
     box-shadow:0 10px 20px rgba(255,105,180,.3);
 }
 
+.btn{
+    display:inline-block;
+    padding:15px 35px;
+    border-radius:50px;
+    background:linear-gradient(45deg,#FF8FC5,#FFB6D9);
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
+}
+
 .btn:hover{
-    transform:translateY(-5px);
-    background:#ff4fa0;
+    transform:translateY(-6px) scale(1.05);
+    box-shadow:0 12px 25px rgba(255,105,180,.35);
+}
 }
 
 .container{
@@ -105,11 +117,12 @@ nav a:hover{
 }
 
 .card{
-    background:white;
+    background: rgba(255,255,255,0.7);
+    backdrop-filter: blur(12px);
+    border-radius:25px;
     padding:30px;
-    margin:20px 0;
-    border-radius:20px;
-    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    box-shadow:0 10px 30px rgba(255,105,180,.15);
+    border:1px solid rgba(255,255,255,.5);
 }
 
 .card h2{
